@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 2px solid black;
+            padding: 8px 15px 15px;
+        }
+        .head{
+            background-color: rgb(190, 196, 194);
+        }
+    </style>
+</head>
+<body>
+    <h2>HTML Table</h2>
+    <table>
+        <caption>Employees</caption>
+        <thead>
+            <tr class="head">
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Priya</td>
+                <td>Sharma</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Arun</td>
+                <td>Singh</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>Sam</td>
+                <td>Watson</td>
+                <td>41</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="head">
+                <td colspan="3">Total : 4</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

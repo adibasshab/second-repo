@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 2px solid black;
+            padding: 5px 10px 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+                <ul>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="table.html">Table</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="form.html">Form</a></li>
+                </ul>
+                
+    </header>
+    <h1>HTML Table</h1>
+    <table>
+        <caption>Salary Data</caption>
+       <thead>
+            <tr>
+                <!-- <td>No.</td> -->
+                <!-- <td>Full Name</td> -->
+                <!-- <td>Position</td> -->
+                <!-- <td>Salary</td> -->
+                 <th>No.</th>
+                 <th>Name</th>
+                 <th>Position</th>
+                 <th>Salary</th>
+            </tr>
+       </thead>
+       <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Founder Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry Pages</td>
+                <td>Founder Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zuckerberg</td>
+                <td>Founder Facebook</td>
+                <td>$1300</td>
+            </tr>
+       </tbody>
+       <tfoot>
+            <tr>
+                <td colspan="4">Total: 4</td>
+            </tr>
+       </tfoot>
+
+    </table>
+</body>
+</html>
+**1st row ta holo table head <br>
+**table head = thead, table body = tbody, table footer =tfoot,table row = tr, table data or table cell = td
+££ seq: <br>
+*body tag e td diye shuru.. <br>
+*td e border dile border asbe..collapse korle eksathe hobe
+** table er head ta tr er vetor td diyeo kora jaay... abar table head er cell bujhate table head cell = th tag use kora hoyy <br>
+* td er pase , diye th dieli hoye jabe <br>
+**last row sobar sathe diite colspan tag use hoy.. <br>
+**lastly table er caption deyar jnne table tag er por caption tag use hoy..
